@@ -1,0 +1,190 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.0; /* Slightly increased for better readability */
+    margin: 0;
+    padding: 0;
+    background: url('/images/Bz-Coder.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #c0f10c; /* Retaining your color theme */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+}
+
+/* Header Styles */
+header {
+    background: rgba(27, 182, 202, 0.274); /* Slightly increased opacity */
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+    text-transform: uppercase; /* Adding a bold title look */
+    font-weight: bold;
+    letter-spacing: 1.2px; /* Improve header text spacing */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow for prominence */
+    position: sticky; /* Keep header visible on scroll */
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #c0f10c; /* Add a subtle border to distinguish header */
+}
+
+/* Footer Styles */
+footer {
+    background: rgba(27, 58, 51, 0.534); /* Slightly increased opacity */
+    color: #fff;
+    text-align: center;
+    padding: 0.8rem; /* Adjusted padding */
+    font-size: 0.9rem; /* Slightly smaller font for footer */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+/* Links */
+a {
+    color: #c0f10c;
+    text-decoration: none;
+    font-weight: bold; /* Emphasize links */
+    transition: color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: underline;
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Buttons */
+button {
+    background: #c0f10c;
+    color: #000;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: #fff;
+    color: #000;
+    transform: translateY(-2px); /* Add lift effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Content Styling */
+main {
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: rgba(0, 0, 0, 0.6); /* Darker overlay for better contrast */
+    max-width: 800px;
+    border-radius: 15px; /* More rounded corners */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Slightly deeper shadow */
+    color: #fff;
+    line-height: 1.8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 90%; /* Scale down text slightly */
+    }
+
+    header {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    footer {
+        padding: 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    main {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    button {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+}
+
+/* Typography Enhancements */
+h1, h2, h3, h4, h5, h6 {
+    color: #c0f10c;
+    margin: 0 0 1rem;
+    font-family: 'Arial Black', sans-serif; /* Bold title font */
+    letter-spacing: 1.2px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Subtle glow effect */
+}
+
+p {
+    margin: 0 0 1.5rem;
+    color: #e3fcee;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Slightly enhanced readability */
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+body, header, footer, main {
+    animation: fadeIn 1s ease-in-out; /* Smooth fade-in on load */
+}
+
+/* Navigation Panel */
+.navigation-panel {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* Space between buttons */
+    margin: 1rem auto;
+    padding: 1rem;
+    background: rgba(27, 182, 202, 0.8); /* Match header color */
+    border-radius: 10px; /* Rounded panel */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add depth */
+    max-width: 90%; /* Responsive size */
+}
+
+/* Buttons in the Navigation Panel */
+.navigation-panel button {
+    background: #c0f10c;
+    color: #000;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    text-transform: uppercase; /* Consistent style */
+}
+
+.navigation-panel button:hover {
+    background: #fff;
+    color: #000;
+    transform: translateY(-2px); /* Lift effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Design for Navigation Panel */
+@media (max-width: 768px) {
+    .navigation-panel {
+        flex-wrap: wrap; /* Stack buttons on smaller screens */
+        gap: 0.5rem;
+    }
+
+    .navigation-panel button {
+        flex: 1 1 calc(50% - 1rem); /* Two buttons per row */
+        text-align: center;
+    }
+}

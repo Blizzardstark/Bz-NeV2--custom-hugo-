@@ -1,0 +1,7 @@
+name = "<Bz-NeV2-Custom>"
+description = "Bz-NeV2 custom Hugo theme created from scratch for a complete start."
+author = "Bz-NeV2"
+homepage = "https://github.com/<Blizzardstark>/<Bz-NeV2-Custom-hugo-site>"
+license = "MIT"
+tags = "blog", "portfolio", "responsive"
+min_version = "0.83.0"

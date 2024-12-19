@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }}</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+
+        <h1>Bz-NeV2 Custom Hugo Site</h1>
+    </header>
+
+    <!-- Navigation Panel -->
+    <nav class="navigation-panel">
+        <button onclick="location.href='/'">Home</button>
+        <button onclick="location.href='/archive/'">Archive</button>
+        <button onclick="location.href='/news/'">News</button>
+        <button onclick="location.href='/post/'">Post</button>
+        <button onclick="location.href='/projects/'">Projects</button>
+        <button onclick="location.href='/about/'">About</button>
+    </nav>
+
+    <main>
+        {{ block "main" . }}{{ end }}
+    </main>
+    <footer>
+        <p>&copy; {{ now.Year }} Bz-NeV2 Custom Hugo Site</p>
+    </footer>
+</body>
+</html>

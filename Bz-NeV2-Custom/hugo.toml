@@ -1,0 +1,4 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Bz-NeV2 Custom Hugo Site'
+theme = 'Bz-NeV2-Custom'
