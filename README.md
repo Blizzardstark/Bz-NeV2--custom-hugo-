@@ -1,5 +1,7 @@
 ## Bz-NeV2-Custom-hugo-theme
 
+![Description of my image](Screenshot%from%2024-12-19%13-55-02.png)
+
 Overview
 
 This is a custom theme designed to provide a responsive layout for your website, Blog, and more.The idea is
