@@ -21,6 +21,7 @@ General styles:
                 there are plenty more do explore.
 
 License
+
 This Hugo theme is released under MIT License.
 
 Contibute Guidelines.
