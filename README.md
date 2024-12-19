@@ -2,8 +2,8 @@
 
 Overview
 
-This is a custom theme designed to provide and responsive layout for your website.The idea is
-to give no matter who i fun and fresh start something that can be modified and be reused.  
+This is a custom theme designed to provide a responsive layout for your website, Blog, and more.The idea is
+to give a fresh start... something that can be modified and be reused.  
 The theme features a unique color scheme,typography enhancements, animation, and navigation
 panel
 
