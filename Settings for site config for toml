@@ -5,7 +5,7 @@ Here's the generated `config.toml` file:
 [params]
 title = "Bz-NeV2 Open-Source"
 baseURL = "/"
-theme = "minimo"
+theme = "Bz-NeV2-Custom"
 
 [outputs]
 home = ["HTML", "JSON"]
