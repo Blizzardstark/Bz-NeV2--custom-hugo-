@@ -1,0 +1,53 @@
+
+Here's the generated `config.toml` file:
+
+```toml
+[params]
+title = "Bz-NeV2 Open-Source"
+baseURL = "/"
+theme = "minimo"
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[languages]
+en = true
+
+[menu]
+main = [
+    {name="Home", url="/", weight=1},
+    {name="Archive", url="/archive/", weight=2},
+    {name="News", url="/news/", weight=3},
+    {name="Post", url="/post/", weight=4},
+    {name="Projects", url="/projects/", weight=5},
+    {name="About", url="/about/", weight=6},
+]
+
+[blackfriday]
+enable = true
+
+[googleAnalytics]
+id = "UA-XXXXXXXX-X"
+
+[disqus]
+shortname = "bz-nev2"
+```
+
+This `config.toml` file includes the following settings:
+
+1.  **Title**: The title of your website, which will be displayed in the browser's title bar.
+2.  **Base URL**: The base URL for your website, which is used to generate URLs for your blog posts and pages.
+3.  **Theme**: The theme you're using for your Hugo site.
+4.  **Outputs**: A list of output formats for your blog posts and pages, including HTML and JSON.
+5.  **Taxonomies**: A list of taxonomies, such as categories and tags, that can be used to organize your content.
+6.  **Languages**: A list of languages supported by your website, in this case English (en).
+7.  **Menu**: A list of menu items for your website's main navigation menu.
+8.  **Black Friday**: Enable or disable the Black Friday plugin, which helps with SEO and performance optimization.
+9.  **Google Analytics**: The ID for your Google Analytics account.
+10. **Disqus**: The shortname for your Disqus comment system.
+
+Please note that you may need to customize this `config.toml` file according to your specific needs and preferences.
